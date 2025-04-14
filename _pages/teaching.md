@@ -12,7 +12,7 @@ author_profile: true
 {% endfor %} -->
 
 
-## Undergraduate - Intermdediate Macroeconomics ##
+## Undergraduate - Intermediate Macroeconomics ##
 *2023- NYUAD*
 
 Lecturer

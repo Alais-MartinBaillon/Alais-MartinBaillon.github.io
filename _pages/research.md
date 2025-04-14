@@ -24,12 +24,19 @@ author_profile: true
 ### Should monetary policy care about redistribution? Optimal fiscal and monetary policy with heterogeneous agents ###
 With François Le Grand and Xavier Ragot. 
 
-[Draft](https://alais-martinbaillon.github.io/files/LMR_OptimalMonetary.pdf).  R\&R Economic Studies (2nd round).
+[Draft](https://alais-martinbaillon.github.io/files/LeGrand_MartinBaillon_Ragot_Money).  (First version 2018/01. This version 2024/06). Conditionally accepted at the Review of Economic Studies.
 
-We derive optimal monetary policy in a heterogeneous-agent economy with nominal frictions and aggregate shocks. We analyze the model with either sticky prices or sticky wages, and different assumptions about fiscal policy. In the sticky-price economy, when fiscal policy is optimally set, optimal monetary policy implements price stability. Inflation volatility remains low when fiscal policy follows empirically relevant rules, except when the slope of the Phillips curve is large and when the distribution of profits is tilted toward high-productive agents. In the sticky-wage economy, optimal price inflation is much more volatile, but wage inflation stays very small. Under both assumptions regarding rigidity, the lower the productivity of agents, the more they benefit from optimal monetary policy.
+We derive optimal monetary policy in a heterogeneous-agent economy with nominal
+frictions and aggregate shocks. We analyze the model with either sticky prices or sticky wages,
+and different assumptions about fiscal policy. In the sticky-price economy, when fiscal policy is
+optimally set, optimal monetary policy implements price stability. Inflation volatility remains
+low when fiscal policy follows empirically relevant rules, except when the slope of the Phillips
+curve is large and when the distribution of profits is tilted toward high-productive agents. In
+the sticky-wage economy, optimal price inflation is much more volatile, but wage inflation
+stays very small. Under both assumptions regarding rigidity, the lower the productivity of
+agents, the more they benefit from optimal monetary policy.
 
 ## Work in Progress ##
-
 ### When should we tax firms? Optimal corporate taxation with firm heterogeneity ###
 Job Market Paper *New draft coming soon*
 
