@@ -24,7 +24,7 @@ author_profile: true
 ### Should monetary policy care about redistribution? Optimal fiscal and monetary policy with heterogeneous agents ###
 With François Le Grand and Xavier Ragot. 
 
-[Draft](https://alais-martinbaillon.github.io/files/LeGrand_MartinBaillon_Ragot_Money).  (First version 2018/01. This version 2024/06). Conditionally accepted at the Review of Economic Studies.
+[Draft](https://alais-martinbaillon.github.io/files/LeGrand_MartinBaillon_Ragot_Money.pdf).  (First version 2018/01. This version 2024/06). Conditionally accepted at the Review of Economic Studies.
 
 We derive optimal monetary policy in a heterogeneous-agent economy with nominal
 frictions and aggregate shocks. We analyze the model with either sticky prices or sticky wages,
