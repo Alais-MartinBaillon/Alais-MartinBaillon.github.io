@@ -22,7 +22,7 @@ author_profile: true
 ## Working Papers ##
 
 ### Should monetary policy care about redistribution? Optimal fiscal and monetary policy with heterogeneous agents ###
-With  <a href="https://francois-le-grand.com/">François Le Grand</a>  and <a href="https://https://xavier-ragot.fr/">Xavier Ragot</a> . 
+With  <a href="https://francois-le-grand.com/">François Le Grand</a>  and <a href="https://https://xavier-ragot.fr/">Xavier Ragot</a>. 
 
 [Draft](https://alais-martinbaillon.github.io/files/LeGrand_MartinBaillon_Ragot_Money.pdf).  (First version 2018/01. This version 2024/06). Conditionally accepted at the Review of Economic Studies.
 
@@ -51,10 +51,10 @@ How to stimulate aggregate investment? There are different transmission channels
 
 
 ### Heterogeneous Firm Expectations and Misallocation ###
-With Erwan Gautier and Paul Hubert. 
+With <a href="https://sites.google.com/site/erwangautiereconomics/">Erwan Gautier</a>  and  <a href="https://sites.google.com/view/paulhubert/">Paul Hubert</a>. 
 
 This paper examines how heterogeneity in firms' forecasting abilities contributes to resource misallocation. Using French quarterly survey data on firm expectations matched with administrative data, we show that firms systematically deviate from rational expectations, with evidence of overreaction to news. These forecast errors significantly impact investment and hiring decisions, leading to observable differences in marginal product of capital (MRPK) and labor (MRPL). When firms underestimate demand by one unit, their MRPK increases by 5.4\% and MRPL by 4.3\%. Both predictable errors and unpredictable shocks contribute to misallocation, affecting aggregate productivity and output.
 
 
 ### The Heterogeneous Effects of Bank Losses? ###
-With John Kramer and Tobias Renkin. 
+With <a href="https://sites.google.com/view/john-v-kramer/welcome/">John Kramer</a>  and  <a href="https://www.tobiasrenkin.com/">Tobias Renkin</a> .  
