@@ -19,7 +19,7 @@ author_profile: true
  {% include base_path %}
 
 
-## Publications ##
+## Publication ##
 
 ### Should monetary policy care about redistribution? Optimal fiscal and monetary policy with heterogeneous agents ###
 With  <a href="https://francois-le-grand.com/">François Le Grand</a>  and <a href="https://https://xavier-ragot.fr/">Xavier Ragot</a>. 
@@ -31,7 +31,7 @@ We present a method to determine optimal monetary policy in heterogeneous-agent 
 
 ## Working Papers ##
 
-### Heterogeneous Firm Expectations and Misallocation ### [Draft](https://alais-martinbaillon.github.io/files/Gautier_Hubert_MartinBaillon.pdf).
+### Heterogeneous Firm Expectations and Misallocation  [Draft](https://alais-martinbaillon.github.io/files/Gautier_Hubert_MartinBaillon.pdf).
 
 With <a href="https://sites.google.com/site/erwangautiereconomics/">Erwan Gautier</a>  and  <a href="https://sites.google.com/view/paulhubert/">Paul Hubert</a>. 
 
@@ -41,7 +41,6 @@ This paper examines how heterogeneity in firms’ forecasting accuracy contribut
 ## Work in Progress ##
 
 ### When should we tax firms? Optimal corporate taxation with firm heterogeneity ###
-Job Market Paper
 
 Corporate fiscal policy over the business cycle is implemented in very different ways over time and across countries. Moreover, little is known about how it should be conducted. This paper studies the design of optimal fiscal policy in a heterogeneous firm environment when the economy is hit by aggregate shocks. It provides tools to understand when and how heterogeneous firms should be taxed or subsidized over the cycle. To tackle this issue, I first solve a tractable model that delivers a simple distribution of firms. In this framework, I provide an analytical characterization of the corporate tax rate over the business cycle. Then, I solve for the optimal path of the tax rate in a real business cycle framework extended to include firm heterogeneity in both capital and productivity. My main result is that, in both exercises, the variation in the optimal tax rate depends on the variation in capital misallocation. This is due to the presence of financial constraints that prevent the allocation of capital from being optimal, and whose severity evolves in response to aggregate shocks. When calibrated to the U.S. economy, I show that misallocation decreases after a positive aggregate shock, and that the optimal tax rate is countercyclical.
 
@@ -52,5 +51,5 @@ Corporate fiscal policy over the business cycle is implemented in very different
 How to stimulate aggregate investment? There are different transmission channels from macroeconomic policies to firm’s investment. Changes in firms’ income is an important one. Therefore, designing efficient counter-cyclical policies requires an understanding of how changes in firms’ income translate into changes in firms’ investment and which firms are the most responsive to such policies. In this paper, I use a new method to estimate firms’ marginal propensities (MPIs) to invest out of a transitory liquid income shock. I use a semi-structural method developed in the household literature and I show that this method can overcome difficulties encountered in previous estimations. I also investigate MPIs heterogeneity across firms. I show that firms’ MPIs are positive and significantly different from 0. On average, firms use 14.4% of the change in current income caused by a transitory income shock to invest. Moreover, firms that face financial constraints and/or firms that face liquidity constraints have higher MPIs than the ones that don’t. Finally, I show that MPIs are very heterogeneous across sectors.
 
 
-### The Heterogeneous Effects of Bank Losses? ###
+### The Heterogeneous Effects of Bank Losses ###
 With <a href="https://sites.google.com/view/john-v-kramer/welcome/">John Kramer</a>  and  <a href="https://www.tobiasrenkin.com/">Tobias Renkin</a> .  
