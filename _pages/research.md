@@ -31,11 +31,9 @@ We present a method to determine optimal monetary policy in heterogeneous-agent 
 
 ## Working Papers ##
 
-### Heterogeneous Firm Expectations and Misallocation ###
+### Heterogeneous Firm Expectations and Misallocation ### [Draft](https://alais-martinbaillon.github.io/files/Gautier_Hubert_MartinBaillon.pdf).
+
 With <a href="https://sites.google.com/site/erwangautiereconomics/">Erwan Gautier</a>  and  <a href="https://sites.google.com/view/paulhubert/">Paul Hubert</a>. 
-
-
-[Draft](https://alais-martinbaillon.github.io/files/Gautier_Hubert_MartinBaillon.pdf).
 
 This paper examines how heterogeneity in firms’ forecasting accuracy contributes to resource misallocation. Using French quarterly survey data on firm expectations matched with administrative data, we show that firms systematically deviate from rational expectations, resulting in forecast errors that significantly affect investment and hiring decisions. These decisions, in turn, lead to differences in marginal revenue product of capital (MRPK) and labor (MRPL). Heterogeneity in forecasting accuracy thus generates dispersion in MRPK and MRPL. We show that when firms underpredict their demand, their MRPK increases by 5.4% and MRPL by 4.1% compared to when they forecast their demand accurately.
 
