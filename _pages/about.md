@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor at NYU Abu Dhabi. My research interests are Macroeconomics, Monetary Economics, and Firm Dynamics. 
+I am an Assistant Professor at NYU Abu Dhabi and a [research affiliate](https://cepr.org/about/people/alais-martin-baillon) at CEPR. My research interests are Macroeconomics, Monetary Economics, and Firm Dynamics. 
 
 <!-- ====== -->
 
