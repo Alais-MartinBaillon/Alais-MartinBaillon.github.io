@@ -4,40 +4,36 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
+## NYU Abu Dhabi
 
-<!-- {% include base_path %} -->
+<div class="course">
+  <span class="course__title">Intermediate Macroeconomics</span>
+  <span class="course__meta">Undergraduate &middot; Lecturer &middot; 2023&ndash;</span>
+</div>
 
-<!-- {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
+<div class="course">
+  <span class="course__title">Macroeconomics</span>
+  <span class="course__meta">Graduate &middot; Lecturer &middot; 2023&ndash;2024</span>
+</div>
 
+## SciencesPo 
 
-## Undergraduate - Intermediate Macroeconomics ##
-*2023- NYUAD*
+<div class="course">
+  <span class="course__title">Macroeconomics 2</span>
+  <span class="course__meta">Graduate &middot; Teaching Assistant for Prof. Mirko Wiederholt &middot; 2017&ndash;2021</span>
+</div>
 
-Lecturer
+<div class="course">
+  <span class="course__title">Macroeconomics 3</span>
+  <span class="course__meta">Graduate &middot; Teaching Assistant for Prof. Xavier Ragot &middot; 2018&ndash;2021</span>
+</div>
 
-## Graduate - Macroeconomics ##
-*2023-2024, NYUAD*
+<div class="course">
+  <span class="course__title">Macroeconomics for Public Policies</span>
+  <span class="course__meta">Teaching Assistant for Prof. Xavier Ragot and Philippe Andrade &middot; 2017</span>
+</div>
 
-Lecturer
-
-## Graduate - Macroeconomics 2 ##
-*2017-2021, Sciences Po Paris*
-
-Teaching Assistant for the macroeconomics course given by Prof. Mirko Wiederholt to first year graduate students.
-
-## Graduate - Macroeconomics 3 ##
-*2018-2021, Sciences Po Paris*
-
-Teaching Assistant for the macroeconomics course given by Prof. Xavier Ragot to second year graduate students.
-
-## Macroeconomics for Public Policies  ##
-*2017, Sciences Po Paris*
-
-Teaching Assistant for the macroeconomics for public policies course given by Prof. Xavier Ragot and Philippe Andrade.
-
-## Undergraduate Mathematics for Quantitative Social Sciences ##
-*2020-2021, Sciences Po Paris*
-
-Lecturer to first year students.
+<div class="course">
+  <span class="course__title">Mathematics for Quantitative Social Sciences</span>
+  <span class="course__meta">Undergraduate &middot; Lecturer &middot; 2020&ndash;2021</span>
+</div>

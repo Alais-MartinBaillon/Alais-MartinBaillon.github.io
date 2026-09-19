@@ -1,0 +1,337 @@
+/* ==========================================================================
+   Alaïs Martin-Baillon — site refresh
+   A styling overlay for AcademicPages (Minimal Mistakes). Keeps the existing
+   layout; refines typography, color, spacing, and interaction states.
+   Loaded last (via _includes/head/custom.html), so it overrides the theme.
+   ========================================================================== */
+
+:root {
+  --amb-ink:         #1f2328;  /* primary text */
+  --amb-body:        #3a4149;  /* long-form prose */
+  --amb-muted:       #5b6570;  /* secondary text */
+  --amb-faint:       #8a929c;  /* captions, meta, footer */
+  --amb-bg:          #ffffff;
+  --amb-surface:     #f6f8fa;  /* subtle fills */
+  --amb-line:        #e7e9ec;  /* hairlines */
+  --amb-accent:      #1a5f8a;  /* links / accent */
+  --amb-accent-dark: #123f5c;  /* link hover */
+  --amb-accent-soft: #cfe0ec;  /* link underline at rest */
+  --amb-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+              "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+/* --- Base -------------------------------------------------------------- */
+body {
+  color: var(--amb-ink);
+  background: var(--amb-bg);
+  font-family: var(--amb-sans);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection { background: var(--amb-accent-soft); color: var(--amb-ink); }
+
+/* --- Links ------------------------------------------------------------- */
+a { color: var(--amb-accent); }
+a:hover, a:focus { color: var(--amb-accent-dark); }
+
+.page__content a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--amb-accent-soft);
+  transition: color .15s ease, border-color .15s ease;
+}
+.page__content a:hover,
+.page__content a:focus {
+  color: var(--amb-accent-dark);
+  border-bottom-color: var(--amb-accent);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--amb-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* --- Masthead / navigation -------------------------------------------- */
+.masthead {
+  background: var(--amb-bg);
+  border-bottom: 1px solid var(--amb-line);
+}
+.masthead__inner-wrap { padding-top: 1.1em; padding-bottom: 1.1em; }
+
+.greedy-nav { background: transparent; }
+.greedy-nav a { color: var(--amb-muted); font-weight: 500; }
+.greedy-nav a:hover { color: var(--amb-ink); }
+.greedy-nav .site-title {
+  color: var(--amb-ink);
+  font-weight: 700;
+  letter-spacing: -.01em;
+}
+.greedy-nav .visible-links a::before { height: 2px; background: var(--amb-accent); }
+.greedy-nav .hidden-links a:hover { color: var(--amb-ink); }
+.greedy-nav__toggle:hover .navicon,
+.greedy-nav__toggle:hover .navicon::before,
+.greedy-nav__toggle:hover .navicon::after { background: var(--amb-accent); }
+
+
+.author__name {
+  font-weight: 700;
+  letter-spacing: -.01em;
+  margin-top: .65em;
+}
+.author__bio { color: var(--amb-muted); line-height: 1.5; }
+
+.author__urls-wrapper button {
+  color: var(--amb-muted);
+  border: 1px solid var(--amb-line);
+  border-radius: 6px;
+}
+.author__urls.social-icons li { padding: .25em 0; }
+.author__urls a { color: var(--amb-muted); }
+.author__urls a:hover { color: var(--amb-accent); text-decoration: none; }
+.author__urls .svg-inline--fa,
+.author__urls i { color: var(--amb-faint); }
+
+/* --- Page content ------------------------------------------------------ */
+.page__content {
+  font-size: 1.02em;
+  line-height: 1.7;
+  color: var(--amb-body);
+}
+.page__content p { margin: 0 0 1.15em; }
+.page__content p,
+.page__content li { color: var(--amb-body); }
+
+.page__title {
+  color: var(--amb-ink);
+  font-weight: 700;
+  letter-spacing: -.02em;
+  border-bottom: 0;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: var(--amb-ink);
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.25;
+}
+.page__content h2 {
+  margin-top: 2em;
+  margin-bottom: .6em;
+  padding-bottom: .35em;
+  border-bottom: 1px solid var(--amb-line);
+}
+.page__content h3 {
+  margin-top: 1.6em;
+  margin-bottom: .35em;
+}
+/* Paper titles that are links: keep them accent-colored, no underline */
+.page__content h3 a,
+.page__content h2 a {
+  color: var(--amb-accent);
+  border-bottom: 0;
+}
+.page__content h3 a:hover,
+.page__content h2 a:hover { color: var(--amb-accent-dark); }
+
+.page__content blockquote {
+  border-left: 3px solid var(--amb-accent-soft);
+  color: var(--amb-muted);
+  font-style: normal;
+}
+
+/* --- Footer ------------------------------------------------------------ */
+.page__footer {
+  margin-top: 3em;
+  background: var(--amb-bg);
+  border-top: 1px solid var(--amb-line);
+  color: var(--amb-faint);
+}
+.page__footer a { color: var(--amb-muted); }
+.page__footer a:hover { color: var(--amb-accent); }
+.page__footer footer { font-size: .85em; }
+.page__footer .social-icons i,
+.page__footer .social-icons .svg-inline--fa { color: var(--amb-faint); }
+
+/* --- Motion ------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+
+/* --- Research: collapsible paper entries ------------------------------- */
+.page__content details.paper {
+  border-top: 1px solid var(--amb-line);
+  margin: 0; padding: 0;
+}
+.page__content details.paper:last-of-type {
+  border-bottom: 1px solid var(--amb-line);
+}
+.page__content details.paper > summary {
+  list-style: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: .8em 1.6em .8em 0;
+  outline: none;
+}
+.page__content details.paper > summary::-webkit-details-marker { display: none; }
+.page__content details.paper > summary::marker { content: ""; }
+.page__content details.paper > summary:focus-visible {
+  outline: 2px solid var(--amb-accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.paper__title {
+  font-size: .95em;
+  font-weight: 700;
+  color: var(--amb-ink);
+  letter-spacing: -.005em;
+  line-height: 1.45;
+  transition: color .15s ease;
+}
+.paper__authors {
+  font-size: .95em;
+  font-weight: 400;
+  color: var(--amb-muted);
+  line-height: 1.45;
+}
+.page__content details.paper[open] .paper__title,
+.page__content details.paper > summary:hover .paper__title { color: var(--amb-accent); }
+.paper__links {
+  display: block;
+  margin-top: .3em;
+  font-size: .82em;
+  color: var(--amb-faint);
+  line-height: 1.5;
+}
+.paper__links a {
+  color: var(--amb-accent);
+  border-bottom: 1px solid var(--amb-accent-soft);
+}
+.paper__links a:hover {
+  color: var(--amb-accent-dark);
+  border-bottom-color: var(--amb-accent);
+}
+.page__content details.paper > summary::after {
+  content: "";
+  position: absolute;
+  top: 1.2em; right: .15em;
+  width: 7px; height: 7px;
+  border-right: 2px solid var(--amb-faint);
+  border-bottom: 2px solid var(--amb-faint);
+  transform: rotate(45deg);
+  transition: transform .2s ease, border-color .15s ease;
+}
+.page__content details.paper[open] > summary::after { transform: rotate(-135deg); }
+.page__content details.paper > summary:hover::after { border-color: var(--amb-accent); }
+.paper__body { padding: 0 1.6em .95em 0; }
+.paper__abstract {
+  font-size: .88em;
+  line-height: 1.6;
+  color: var(--amb-muted);
+  margin: 0;
+}
+.page__content details.paper { margin-bottom: 1.6em; }
+.page__content details.paper > summary {
+  -webkit-appearance: none;
+  appearance: none;
+  list-style-type: none;
+}
+.page__content details.paper > summary::marker { content: none; }
+
+
+details.paper {
+  border-top: 1px solid var(--amb-line);
+  padding: 0;
+  margin: 0 0 1.6em;
+}
+details.paper:last-of-type { border-bottom: 1px solid var(--amb-line); }
+details.paper > summary {
+  list-style: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: .8em 1.6em .8em 0;
+  outline: none;
+}
+details.paper > summary::-webkit-details-marker { display: none; }
+details.paper[open] .paper__title,
+details.paper > summary:hover .paper__title { color: var(--amb-accent); }
+details.paper > summary::after {
+  content: "";
+  position: absolute;
+  top: 1.2em; right: .15em;
+  width: 7px; height: 7px;
+  border-right: 2px solid var(--amb-faint);
+  border-bottom: 2px solid var(--amb-faint);
+  transform: rotate(45deg);
+  transition: transform .2s ease, border-color .15s ease;
+}
+details.paper[open] > summary::after { transform: rotate(-135deg); }
+details.paper > summary:hover::after { border-color: var(--amb-accent); }
+details.paper .paper__body { padding: 0 1.6em .95em 0; }
+details.paper { margin-bottom: .0em; }
+details.paper--tight { margin-bottom: 0; }
+
+
+
+details.paper--tight > summary { padding-top: .45em; padding-bottom: .45em; }
+details.paper--tight .paper__body { padding-bottom: .55em; }
+
+
+.course {
+  border-top: 1px solid var(--amb-line);
+  padding: .7em 0;
+}
+.course:last-of-type { border-bottom: 1px solid var(--amb-line); }
+.course__title {
+  display: block;
+  font-size: .95em;
+  font-weight: 700;
+  color: var(--amb-ink);
+  line-height: 1.45;
+}
+.course__meta {
+  display: block;
+  margin-top: .2em;
+  font-size: .82em;
+  color: var(--amb-faint);
+  line-height: 1.5;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin: 1.5em 0;
+}
+.gallery figure { margin: 0; }
+.gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+.gallery figcaption {
+  margin-top: .4em;
+  font-size: .8em;
+  color: var(--amb-faint);
+  line-height: 1.4;
+}
+
+/* Photos page: two portrait tiles, then a full-width landscape */
+.gallery--two { max-width: 620px; }
+.gallery--two { grid-template-columns: 1fr 1fr; }
+.gallery--two img { aspect-ratio: 3 / 4; }
+.gallery--two .gallery__wide { grid-column: 1 / -1; }
+.gallery--two .gallery__wide img { aspect-ratio: 16 / 9; }
+@media (max-width: 600px) {
+  .gallery--two { grid-template-columns: 1fr; }
+  .gallery--two img, .gallery--two .gallery__wide img { aspect-ratio: 4 / 3; }
+}
