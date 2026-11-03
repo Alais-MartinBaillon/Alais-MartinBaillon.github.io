@@ -326,7 +326,7 @@ details.paper--tight .paper__body { padding-bottom: .55em; }
 }
 
 /* Photos page: two portrait tiles, then a full-width landscape */
-.gallery--two { max-width: 620px; }
+.gallery--two { max-width: 820px; }
 .gallery--two { grid-template-columns: 1fr 1fr; }
 .gallery--two img { aspect-ratio: 3 / 4; }
 .gallery--two .gallery__wide { grid-column: 1 / -1; }
